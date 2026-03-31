@@ -42,31 +42,6 @@ Este projeto foca na análise de sentimento e na identificação de temas em um 
 -   **Student loan**: outros, falha_no_atendimento, erro_info_credito, taxas_juros, cobranca_indevida
 -   **Vehicle loan or lease**: outros, taxas_juros, falha_no_atendimento, erro_info_credito, fraude
 
-## Artefatos Gerados
-Todos os artefatos gerados pelo projeto (métricas, gráficos e tabelas) podem ser encontrados na pasta `outputs/`:
-
-```
-outputs/
-  figures/
-    confusion_matrix.png
-    freq_terms_*.png (gráficos de frequência de termos por produto)
-    wordcloud_*.png (nuvens de palavras originais por produto)
-    wordcloud_top_terms_*.png (nuvens de palavras dos top termos por produto)
-  models/
-    distilbert_final/ (modelo DistilBERT treinado e tokenizer)
-    distilbert_runs/ (logs e checkpoints do treinamento DistilBERT)
-    mlp_model.joblib (modelo MLP, se fallback usado)
-    tfidf_vectorizer.joblib (vetorizador TF-IDF, se fallback usado)
-  metrics/
-    test_metrics.json (métricas de avaliação no conjunto de teste)
-    classification_report.txt (relatório de classificação detalhado)
-    confusion_matrix.csv (matriz de confusão)
-  tables/
-    test_predictions.csv (previsões do modelo no conjunto de teste)
-    themes_by_product.csv (contagem de temas por produto)
-    top_terms_by_product.csv (tabela dos top termos por produto)
-```
-
 ## Dependências
 As principais bibliotecas e frameworks utilizados neste projeto incluem:
 
