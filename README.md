@@ -33,7 +33,6 @@ Este projeto foca na análise de sentimento e na identificação de temas em um 
 
 -   **Checking or savings account**: fraude, outros, taxas_juros, falha_no_atendimento, estorno_reembolso
 -   **Credit card**: taxas_juros, falha_no_atendimento, fraude, cobranca_indevida, erro_info_credito
--   **Credit card or prepaid card**: falha_no_atendimento, taxas_juros, outros, fraude, cobranca_indevida
 -   **Credit reporting or other personal consumer reports**: erro_info_credito, fraude, roubo_identidade, outros, problemas_pagamento
 -   **Credit reporting, credit repair services, or other personal consumer reports**: erro_info_credito, outros, fraude, roubo_identidade, taxas_juros
 -   **Debt collection**: erro_info_credito, cobranca_divida, outros, fraude, taxas_juros
